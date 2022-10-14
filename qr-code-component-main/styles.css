@@ -1,0 +1,41 @@
+* {box-sizing: border-box;}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Light-gray);
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+}
+
+.qr-container {
+    width: 300px;
+    background: var(--White);
+    padding: 10px;
+    box-shadow: 0 5px 10px silver;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.qr-container .qr-text {padding: 0 20px 15px;}
+
+.qr-container h1 {color: var(--Dark-blue);font-size: 20px;}
+
+.qr-container p {font-size: 14px;color: var(--Grayish-blue);}
+
+.qr-container img {
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
