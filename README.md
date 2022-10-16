@@ -45,7 +45,7 @@ Users should be able to:
 ### What I learned
 
 Building project is a great way to practice your coding skill, with frontend mentor, i've learned much 
-until now. this is the second prject i made.
+until now. this is the second project i made.
 
 ### Continued development
 
